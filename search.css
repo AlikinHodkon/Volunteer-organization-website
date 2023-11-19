@@ -1,0 +1,48 @@
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.searchbar form {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 80vh;
+    height: 8vh;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.searchbar form input {
+    width: 80%;
+    height: 8vh;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:white;
+    font-size: 25px;
+}
+
+.searchbar form:hover {
+    width: 85vh;
+    transition: 0.5s;
+}
+
+.searchbar form input::placeholder {
+    color: white;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+.searchbar form button {
+    width: 20vh;
+    height: 99%;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    font-size: 25px;
+    background: linear-gradient(180deg, hsla(193, 85%, 50%, 0.65), hsla(244, 93%, 40%, 0.65));
+}

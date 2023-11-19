@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="report.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Report</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div style="flex: 1 auto;">
+            <div class="face">
+                <header class="header">
+                    <img src=".\images\logo.png">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="report.html">Сообщить о проблеме</a></li>
+                            <li><a href="search.html">Поиск</a></li>
+                            <li><a href="signup.html">Регистрация</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="reportForm">
+                  <form action="#">
+                    <div>
+                      <input type="text" placeholder="Имя" name="" required>
+                      <input type="text" placeholder="Фамилия" name="" required>
+                    </div>
+                    <div class="formSelector">
+                      <label>Выберите тему вашего обращения</label>
+                      <select name="" required>
+                        <option value="">Ошибка в работе сайта</option>
+                        <option value="">Деловое предложение</option>
+                        <option value="">Запросить помощь волонтеров</option>
+                        <option value="">Сообщить о нарушениях</option>
+                      </select>
+                    </div>
+                    <textarea rows="8" cols="" required></textarea>
+                    <div style="display: flex; justify-content: center; width: 100%;">
+                      <button type="submit">Отправить</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>  
+        <footer class="footer">
+            <div class = "contacts">
+                <h3>Телефон:</h3>
+                <hr>
+                <p>+ 8 (ХХХ) ХХХ-ХХ-ХХ</p>
+              </div>
+              <div class="email">
+                <h3>Email:</h3>
+                <hr>
+                <p>justtestindex@gmail.com</p>
+              </div>
+              <div class="social">
+                <h3>Соцсети:</h3>
+                <div>
+                  <a href="https://vk.com/club222796731"><img src=".\images\vk.png"></a>
+                  <a href=""><img src=".\images\tg.png"></a>
+                  <a href=""><img src=".\images\ok.png"></a>
+                </div>
+              </div>
+              <div class = "footerNav">
+                <h3>Навигация по сайту</h3>
+                <hr>
+                <ul>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="report.html">Сообщить о проблеме</a></li>
+                  <li><a href="search.html">Поиск</a></li>    
+                  <li><a href="signup.html">Регистрация</a></li>
+                </ul>
+              </div>
+        </footer>
+    </div>
+</body>
+</html>
