@@ -25,20 +25,20 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.form div {
+.string {
     margin-bottom: 30px;
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.form div label {
+.string label {
     color:white;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
 }
 
-.form div input {
+.string input {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     background: transparent;
@@ -51,7 +51,7 @@
     border-bottom: 2px solid white;
 }
 
-.form div input::placeholder {
+.string input::placeholder {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
@@ -80,7 +80,7 @@
     height: 40px;
 }
 
-#checkAgreement{    
+.checkAgreement{    
     height: 8%;
     width: 80%;
     display: flex;
@@ -89,13 +89,20 @@
     margin-bottom: -1%;
 }
 
-#checkAgreement input {
-    height: 70%;
-    margin-right: -20%;
+.checkAgreement input {
+    color: black;
+    background-color: white;
+    border: 0.15em solid black;
+    border-radius: 0.15em;
+    height: 1.15em;
+    width: 1.15em;
 }
 
-#checkAgreement span {
-    font-size: 12px;
-    margin-right: 15%;
+.checkAgreement input:checked {
+    background: linear-gradient(45deg, hsla(193, 85%, 50%, 0.65), hsla(244, 93%, 40%, 0.65));
+}
+
+.checkAgreement span {
     color: white;
+    font-family: 'Oswald', sans-serif;
 }

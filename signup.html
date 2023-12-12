@@ -27,7 +27,7 @@
             <div class="container">
               <form class="form" action="#">
                 <h1>Регистрация</h1>
-                <div>
+                  <div class="string">
                     <!-- <label>Имя</label> -->
                     <input type="text" placeholder="Имя" name="volonteer_name" required>
                       <!-- </div>
@@ -35,13 +35,13 @@
                     <!-- <label>Фамилия</label> -->
                     <input style="margin-left: 20px;" type="text" placeholder="Фамилия" name="volonteer_surname" required>
                   </div>
-                  <div>
+                  <div class="string">
                     <!-- <label>email</label> -->
                     <input type="email" placeholder="example@email.com" name="volonteer_email" required>
                     <!-- <label>Телефон</label> -->
                     <input style="margin-left: 20px;" type="tel" placeholder="+8(XXX)XXX-XX-XX" name="volonteer_number" required>
                   </div>
-                  <div>
+                  <div class="string">
                     <label style="margin-left: 60px; font-size: 25px;">Дата рождения:</label>       
                     <input style="margin-left: 110px;" type="date" name="volonteer_date" required>
                   </div>
@@ -52,10 +52,10 @@
                         <input type="radio" value="Ж" name="volonteer_sex" required><label>Ж</label>
                       </div>
                   </div> -->
-                  <!-- <div id="checkAgreement">
+                  <label class="checkAgreement">
                     <input type="checkbox" name="termsAgree" required /> 
                     <span>Согласие на обработку персональных данных</span>
-                  </div> -->
+                  </label>
                   <button type="submit">
                     <a href="#">Присоединиться</a>
                   </button>
