@@ -24,10 +24,11 @@
     outline: none;
     color:white;
     font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.searchbar form:hover {
-    width: 85vh;
+.searchbar form:hover{
+    width: 100vh;
     transition: 0.5s;
 }
 
@@ -35,6 +36,7 @@
     color: white;
     padding-left: 5%;
     font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .searchbar form button {

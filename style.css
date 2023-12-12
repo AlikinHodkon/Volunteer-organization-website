@@ -73,6 +73,7 @@
 }
 
 .aboutUs {
+  padding: 1%;
   background-color: white;
 }
 
@@ -121,6 +122,7 @@
 }
 
 .work {
+  padding: 1%;
   background-color: #2271B3;
 }
 
