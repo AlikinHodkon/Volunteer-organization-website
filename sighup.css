@@ -87,8 +87,9 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -1%;
-    margin-left: 2%;
+    margin-left: 5%;
     color: white;
+    font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -98,7 +99,7 @@
     height: 1px;
     overflow: hidden;
     clip: rect(0 0 0 0);
-    padding-left: 36%;
+    padding-left: 45%;
 }
 
 .checkAgreement span {
@@ -106,7 +107,7 @@
     width: 16px;
     height: 16px;
     border: 2px solid white;
-    margin-left: -36%;
+    margin-left: -45%;
 }
 
 .checkAgreement input:checked + span::before{
